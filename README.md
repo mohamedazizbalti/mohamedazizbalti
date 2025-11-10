@@ -1,16 +1,79 @@
-## Hi there 👋
+<!-- PROFILE HEADER -->
+<div align="center">
+  
+# 👋 Hi, I'm **Mohamed Aziz Balti**  
+### 🚀 AI & Software Engineering Student | Data & ML Engineer  
 
-<!--
-**mohamedazizbalti/mohamedazizbalti** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🎓 Final-year student at **INSAT, Tunisia**  
+💡 Passionate about **Machine Learning**, **NLP**, and **Cloud-based AI Systems**  
+🌍 Building intelligent, data-driven applications that make an impact  
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🧠 About Me  
+🔹 Exploring **LLMs**, **RAG Systems**, and **Generative AI**  
+🔹 Experienced with **PyTorch**, **LangChain**, and **FastAPI**  
+🔹 Love transforming data into meaningful insights  
+🔹 Open to collaborations on AI research and ML projects  
+
+---
+
+### ⚙️ Tech Stack & Tools  
+
+#### 💬 Languages  
+<img src="https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" /> 
+<img src="https://img.shields.io/badge/SQL-025E8C?style=for-the-badge&logo=postgresql&logoColor=white" /> 
+<img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" /> 
+
+#### 🤖 Machine Learning / AI  
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" /> 
+<img src="https://img.shields.io/badge/LangChain-1E90FF?style=for-the-badge&logo=openai&logoColor=white" /> 
+<img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" /> 
+<img src="https://img.shields.io/badge/Transformers-FFD43B?style=for-the-badge&logo=huggingface&logoColor=black" /> 
+
+#### 🧰 Tools & DevOps  
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" /> 
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" /> 
+<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" /> 
+<img src="https://img.shields.io/badge/Firestore-FFA611?style=for-the-badge&logo=firebase&logoColor=white" /> 
+
+#### 🧱 Frameworks & Libraries  
+<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" /> 
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" /> 
+<img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" /> 
+<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" /> 
+
+---
+
+### 🌟 Featured Projects  
+
+#### 🧩 [RAG Chatbot with Cloud-Based History](https://github.com/mohamedazizbalti/rag-application)  
+> LangChain + FAISS + Firestore  
+An AI chatbot that lets users upload PDFs and query them intelligently with persistent chat history.
+
+#### 💬 [Full-Stack AI Chat Platform](https://github.com/mohamedazizbalti/chatbot)  
+> FastAPI + React + OpenRouter  
+A conversational AI app with authentication, user sessions, and flexible model selection.
+
+#### 🧠 [Transformer Encoder Implementation](https://github.com/mohamedazizbalti/Transformer-Encoder-Implementation)  
+> PyTorch  
+Rebuilt the encoder architecture from *“Attention Is All You Need”* with multi-head attention and positional encoding.
+
+---
+
+### 📊 GitHub Stats  
+<img src="https://github-readme-stats.vercel.app/api?username=mohamedazizbalti&show_icons=true&theme=tokyonight" height="150"/>  
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mohamedazizbalti&layout=compact&theme=tokyonight" height="150"/>  
+
+---
+
+### 📫 Connect with Me  
+<a href="mailto:azizbalti50@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>  
+<a href="https://www.linkedin.com/in/balti-mohamed-aziz-bbb8ba154/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>  
+<a href="https://github.com/mohamedazizbalti"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>  
+
+---
+
+⭐️ *“Code, learn, and make something intelligent every day.”*  
+
+</div>
