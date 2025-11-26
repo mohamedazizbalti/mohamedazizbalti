@@ -45,22 +45,27 @@
 
 ---
 
-### 🌟 Featured Projects  
+## 🌟 Featured Projects  
 
-#### 🧩 [RAG Chatbot with Cloud-Based History](https://github.com/mohamedazizbalti/rag-application)  
-> LangChain + FAISS + Firestore  
-An AI chatbot that lets users upload PDFs and query them intelligently with persistent chat history.
-
-#### 💬 [Full-Stack AI Chat Platform](https://github.com/mohamedazizbalti/chatbot)  
-> FastAPI + React + OpenRouter  
-A conversational AI app with authentication, user sessions, and flexible model selection.
-
-#### 🧠 [Transformer Encoder Implementation](https://github.com/mohamedazizbalti/Transformer-Encoder-Implementation)  
-> PyTorch  
-Rebuilt the encoder architecture from *“Attention Is All You Need”* with multi-head attention and positional encoding.
+### 🧩 [FAQ RAG System](https://github.com/mohamedazizbalti/faq-rag-system)  
+> **FastAPI + React + Qdrant + Redis + HuggingFace**  
+A full-stack, production-ready FAQ assistant using Retrieval-Augmented Generation (RAG).  
+Features semantic search, vector embeddings, intelligent caching, file upload processing, and a modern frontend UI.
 
 ---
 
+### 🎥 [VideoMind – AI Video Question Answering](https://github.com/mohamedazizbalti/video-mind)  
+> **Whisper + Vision Transformers + Multimodal RAG**  
+An AI system that understands videos: extracts audio with Whisper, analyzes frames, embeds video segments, and answers natural-language questions about the content.  
+A multimodal pipeline combining audio, vision, and text intelligence.
+
+---
+
+### 🧩 [RAG Chatbot with Cloud-Based History](https://github.com/mohamedazizbalti/rag-application)  
+> **LangChain + FAISS + Firestore**  
+A document-aware chatbot where users upload PDFs and query them intelligently. Chat history is synced and stored in Firestore for persistent conversations.
+
+---
 ### 📊 GitHub Stats  
 <img src="https://github-readme-stats.vercel.app/api?username=mohamedazizbalti&show_icons=true&theme=tokyonight" height="150"/>  
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mohamedazizbalti&layout=compact&theme=tokyonight" height="150"/>  
