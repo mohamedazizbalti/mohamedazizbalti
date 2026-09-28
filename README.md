@@ -1,84 +1,38 @@
-<!-- PROFILE HEADER -->
-<div align="center">
-  
-# 👋 Hi, I'm **Mohamed Aziz Balti**  
-### 🚀 AI & Software Engineering Student | Data & ML Engineer  
+# Mohamed Aziz Balti
 
-🎓 Final-year student at **INSAT, Tunisia**  
-💡 Passionate about **Machine Learning**, **NLP**, and **Cloud-based AI Systems**  
-🌍 Building intelligent, data-driven applications that make an impact  
+**AI Engineer · LLM Agents · Document AI**
 
----
+I build LLM systems that run in production: multi-agent copilots with human-in-the-loop control, grounded tutoring agents, and OCR-to-structured-data pipelines. I work end to end, from LangGraph orchestration and prompts to vLLM serving, tracing and regression tests. Software Engineering graduate of INSAT (Tunis, 2026).
 
-### 🧠 About Me  
-🔹 Exploring **LLMs**, **RAG Systems**, and **Generative AI**  
-🔹 Experienced with **PyTorch**, **LangChain**, and **FastAPI**  
-🔹 Love transforming data into meaningful insights  
-🔹 Open to collaborations on AI research and ML projects  
+## What I work on
 
----
+- **AI tutoring.** A math tutor grounded in each lesson's worksheet, transcript and video, which guides students without giving away answers.
+- **Document AI.** A worksheet digitization pipeline (DeepSeek-OCR on vLLM, LLM extraction and validation) that turns a PDF page into an interactive worksheet in 1–3 minutes instead of up to an hour by hand, and a LangGraph classifier that re-categorized ~3.3M legacy worksheets.
+- **Multi-agent copilot.** A LangGraph supervisor delegating to 6 specialist agents over 30+ tools, with human-in-the-loop interrupts, MongoDB checkpointing and permissions enforced by construction.
+- **LLM security.** A fine-tuned prompt-injection classifier served with FastAPI.
 
-### ⚙️ Tech Stack & Tools  
+This work is private. The repositories below are my public projects.
 
-#### 💬 Languages  
-<img src="https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" /> 
-<img src="https://img.shields.io/badge/SQL-025E8C?style=for-the-badge&logo=postgresql&logoColor=white" /> 
-<img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" /> 
+## Public projects
 
-#### 🤖 Machine Learning / AI  
-<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" /> 
-<img src="https://img.shields.io/badge/LangChain-1E90FF?style=for-the-badge&logo=openai&logoColor=white" /> 
-<img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" /> 
-<img src="https://img.shields.io/badge/Transformers-FFD43B?style=for-the-badge&logo=huggingface&logoColor=black" /> 
+| Project | What it is |
+|---|---|
+| [LLM watermarking](https://github.com/mohamedazizbalti/LLM-Watermark-Paper-Implementation) | The green-list watermark of Kirchenbauer et al. (2023) on Qwen3-0.6B, as a logits processor with a z-test detector |
+| [GPT-2 from scratch](https://github.com/mohamedazizbalti/GPT-2-Paper-Implementation) | Decoder-only transformer with training, inference and preprocessing |
+| [GPT-1 + optimized BPE](https://github.com/mohamedazizbalti/GPT-implementation) | "Improving Language Understanding by Generative Pre-Training", with a byte-level BPE tokenizer (max-heap, linked-list merges, trie encoding) |
+| [BERT from scratch](https://github.com/mohamedazizbalti/BERT-implementation) | Encoder-only pre-training and a training loop |
+| [Transformer from scratch](https://github.com/mohamedazizbalti/Transformer-Implementation) | "Attention Is All You Need" with causal and cross attention |
+| [Semantic FAQ (RAG)](https://github.com/mohamedazizbalti/semantic-faq) | FastAPI + React FAQ assistant with Qdrant semantic search and Redis caching |
 
-#### 🧰 Tools & DevOps  
-<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" /> 
-<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" /> 
-<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" /> 
-<img src="https://img.shields.io/badge/Firestore-FFA611?style=for-the-badge&logo=firebase&logoColor=white" /> 
+## Stack
 
-#### 🧱 Frameworks & Libraries  
-<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" /> 
-<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" /> 
-<img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" /> 
-<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" /> 
+**LLMs & agents:** LangGraph, LangChain, RAG, LiteLLM, OpenRouter, Azure OpenAI
+**Document AI & vision:** DeepSeek-OCR, VLMs, YOLO, speech-to-text
+**Serving & MLOps:** vLLM, RunPod, Ollama, FastAPI, Docker, Langfuse
+**ML:** PyTorch, Hugging Face Transformers, scikit-learn
+**Data & cloud:** MongoDB, Redis, Qdrant, FAISS, AWS (S3, ECS), Azure
+**Languages:** Python, TypeScript, SQL
 
----
+## Contact
 
-## 🌟 Featured Projects  
-
-### 🧩 [FAQ RAG System](https://github.com/mohamedazizbalti/faq-rag-system)  
-> **FastAPI + React + Qdrant + Redis + HuggingFace**  
-A full-stack, production-ready FAQ assistant using Retrieval-Augmented Generation (RAG).  
-Features semantic search, vector embeddings, intelligent caching, file upload processing, and a modern frontend UI.
-
----
-
-### 🎥 [VideoMind – AI Video Question Answering](https://github.com/mohamedazizbalti/video-mind)  
-> **Whisper + Vision Transformers + Multimodal RAG**  
-An AI system that understands videos: extracts audio with Whisper, analyzes frames, embeds video segments, and answers natural-language questions about the content.  
-A multimodal pipeline combining audio, vision, and text intelligence.
-
----
-
-### 🧩 [RAG Chatbot with Cloud-Based History](https://github.com/mohamedazizbalti/rag-application)  
-> **LangChain + FAISS + Firestore**  
-A document-aware chatbot where users upload PDFs and query them intelligently. Chat history is synced and stored in Firestore for persistent conversations.
-
----
-### 📊 GitHub Stats  
-<img src="https://github-readme-stats.vercel.app/api?username=mohamedazizbalti&show_icons=true&theme=tokyonight" height="150"/>  
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mohamedazizbalti&layout=compact&theme=tokyonight" height="150"/>  
-
----
-
-### 📫 Connect with Me  
-<a href="mailto:azizbalti50@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>  
-<a href="https://www.linkedin.com/in/balti-mohamed-aziz-bbb8ba154/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>  
-<a href="https://github.com/mohamedazizbalti"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>  
-
----
-
-⭐️ *“Code, learn, and make something intelligent every day.”*  
-
-</div>
+[LinkedIn](https://www.linkedin.com/in/balti-mohamed-aziz-bbb8ba154/) · [azizbalti50@gmail.com](mailto:azizbalti50@gmail.com)
