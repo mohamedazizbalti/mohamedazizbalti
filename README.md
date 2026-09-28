@@ -1,6 +1,6 @@
 # Mohamed Aziz Balti
 
-AI engineer in Tunis. I build LLM agents and document-AI systems that run in production, and I reimplement papers to understand how the models underneath actually work.
+AI engineer. I build LLM agents and document-AI systems that run in production, and I reimplement papers to understand how the models underneath actually work.
 
 ## What I'm working on
 
